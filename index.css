@@ -1,0 +1,523 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f0f2f5;
+    font-family: "poppins", sans-serif;
+}
+
+.section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin: 0 6% 0 6%;
+    
+}
+
+.add-header{
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    line-height: 1;
+}
+
+.add-header h2{
+    position: relative;
+    right: 19%;
+}
+
+.add-header h1{
+    position: relative;
+    right: 8%;
+}
+
+.add-header h2{
+    font-weight: 700;
+    font-size: 40px;
+    color: #0866ff;
+    letter-spacing: 0.3;
+}
+
+
+.sec1 .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    margin: 0 10%;
+}
+
+.add-header h1{
+    font-weight: 500;
+    font-size: 38px;
+}
+
+.plus-icon {
+    background-color: #f5f6f7;
+    height: 25vh;
+    padding: 50px;
+    width: 57%;
+    margin-top: 40px;
+    border-radius: 10px 10px 0 0;
+}
+
+.plus-icon i{
+    position: relative;
+    top: 30%;
+    background: #0866ff;
+    color: white;
+    font-weight: 600;
+    font-size: 45px;
+    padding: 10px 13px 10px 13px;
+    border-radius: 50px;
+}
+
+.account {
+    background-color: #f5f6f7;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 50%;
+    margin-top: 5%;
+    border-radius: 10px;
+}
+
+.account:hover{
+    box-shadow: 0px 0px 5px ;
+}
+
+.account .acc-a {
+    background-color: #FFFFFF;
+    padding: 12px;
+    border-radius: 0 0 10px 10px;
+    
+}
+
+.account .acc-a a{
+    text-decoration: none;
+    color: #0866ff;
+}
+
+.account .icon {
+    position: relative;
+    margin-top: 45%;
+    left: 31%;
+    background-color: #0866ff;
+    width: 45px;
+    padding: 10px;
+    border-radius: 100px;
+}
+
+.account .icon i {
+    color: #fff;
+    font-size: 26px;
+    font-weight: 200;
+}
+
+.form {
+   position: relative;
+   margin-top: 20%;
+   background-color: #FFFFFF;
+   padding: 14px 14px 40px 14px;
+   border-radius: 10px;
+   box-shadow: 0px 0px 5px;
+
+}
+
+.form form input {
+    margin-bottom: 4%;
+    width: 170%;
+    border: 1px solid #ccc;
+    position: relative;
+    right: 50%;
+    border: none;
+    background: #f5f6f7;
+    border-style: none;
+}
+
+input{
+    border: none;
+    border-style: none;
+    outline: none;
+}
+ 
+.login-btn{
+    position: relative;
+    padding: 12px ;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    background: #0866ff;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 3.5%;
+    
+}
+
+.create a{
+    text-decoration: none;
+    color: white;
+    background-color: #36A420;
+    padding: 13px;
+     border-radius: 8px;
+     font-weight: 700;
+     position: relative;
+     left: 24%;
+}
+
+
+
+.form form p a{
+    text-decoration: none;
+    position: relative;
+    left: 29%;
+    color: #0866ff;
+    font-size: 15px;
+}
+
+.form form .email,
+.password {
+    background-color: #f5f6f7;
+    border: 1px solid #ccc;
+    padding: 13px 100px;
+    border-radius: 10px;
+    margin-bottom: 4%;
+}
+
+.email:hover {
+    outline: 1px solid #0866ff;
+}
+
+.password:hover {
+    outline: 1px solid #0866ff;
+}
+
+::placeholder{
+    font-size: 15px;
+}
+
+@media (max-width: 390px) {
+    .sec1 .container {
+        display: flex;
+        flex-direction: column;
+        /* margin: 0 4%; */
+    }
+
+    .section{
+        margin-top: 10%;
+        /* margin: 10%  0 0 0; */
+        padding-top: 20px 10px 0 10px;
+    }
+
+    .add-header h1{
+        position: relative;
+        margin-left: 25px;
+        text-align: center;
+        justify-content: center;
+    }
+    .add-header h2{
+        position: relative;
+        margin-left: 45px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .sec1 .container{
+        margin: 0;
+    }
+
+    .account {
+        position: relative;
+        left: 20%;
+    }
+
+    .form {
+        margin-top: 10%;
+    }
+
+    .form form input{
+        position: relative;
+        right: 58%;
+        margin-top: 5%;
+        width: 190%;
+        padding: 5px;
+        border-radius: 10px;
+        border-style: none;
+
+    }
+
+    ::placeholder{
+        font-family: "poppins", sans-serif;
+        font-size: 15px;
+        position: relative;
+    }
+
+    .form form p a{
+        text-decoration: none;
+        position: relative;
+        left: 10%;
+        color: #0866ff;
+    }
+
+    .form form .email,
+    .password {
+        padding: 8px 70px 8px 110px;
+
+    }
+
+    .form form p a {
+        position: relative;
+        left: 28%;
+    }
+    .create a{
+        position: relative;
+        left: 22%;
+    }
+}
+
+@media (max-width: 430px) {
+    .sec1 .container {
+        display: flex;
+        flex-direction: column;
+        /* margin: 0 4%; */
+    }
+
+    .section{
+        margin-top: 10%;
+        /* margin: 10%  0 0 0; */
+        padding-top: 20px 10px 0 10px;
+    }
+
+    .add-header h1{
+        position: relative;
+        margin-left: 25px;
+        text-align: center;
+        justify-content: center;
+    }
+    .add-header h2{
+        position: relative;
+        margin-left: 45px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .sec1 .container{
+        margin: 0;
+    }
+
+    .account {
+        position: relative;
+        left: 20%;
+    }
+
+    .form {
+        margin-top: 10%;
+    }
+
+    .form form input{
+        position: relative;
+        right: 58%;
+        margin-top: 5%;
+        width: 190%;
+        padding: 5px;
+        border-radius: 10px;
+        border-style: none;
+
+    }
+
+    ::placeholder{
+        font-family: "poppins", sans-serif;
+        font-size: 15px;
+        position: relative;
+    }
+
+    .form form p a{
+        text-decoration: none;
+        position: relative;
+        left: 10%;
+        color: #0866ff;
+    }
+
+    .form form .email,
+    .password {
+        padding: 8px 70px 8px 110px;
+
+    }
+
+    .form form p a {
+        position: relative;
+        left: 28%;
+    }
+    .create a{
+        position: relative;
+        left: 22%;
+    }
+}
+
+
+@media (max-width: 450px){
+    .sec1 .container {
+        display: flex;
+        flex-direction: column;
+        /* margin: 0 4%; */
+    }
+
+    .section{
+        margin-top: 10%;
+        /* margin: 10%  0 0 0; */
+        padding-top: 20px 10px 0 10px;
+    }
+
+    .add-header h1{
+        position: relative;
+        margin-left: 25px;
+        text-align: center;
+        justify-content: center;
+    }
+    .add-header h2{
+        position: relative;
+        margin-left: 45px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .sec1 .container{
+        margin: 0;
+    }
+
+    .account {
+        position: relative;
+        left: 20%;
+    }
+
+    .form {
+        margin-top: 10%;
+    }
+
+    .form form input{
+        position: relative;
+        right: 58%;
+        margin-top: 5%;
+        width: 190%;
+        padding: 5px;
+        border-radius: 10px;
+        border-style: none;
+
+    }
+
+    ::placeholder{
+        font-family: "poppins", sans-serif;
+        font-size: 15px;
+        position: relative;
+    }
+
+    .form form p a{
+        text-decoration: none;
+        position: relative;
+        left: 10%;
+        color: #0866ff;
+    }
+
+    .form form .email,
+    .password {
+        padding: 8px 70px 8px 110px;
+
+    }
+
+    .form form p a {
+        position: relative;
+        left: 28%;
+    }
+    .create a{
+        position: relative;
+        left: 22%;
+    }
+}
+
+
+
+@media (max-width: 560px) {
+    .sec1 .container {
+        display: flex;
+        flex-direction: column;
+        /* margin: 0 4%; */
+    }
+
+    .section{
+        margin-top: 10%;
+        /* margin: 10%  0 0 0; */
+        padding-top: 20px 10px 0 10px;
+    }
+
+    .add-header h1{
+        position: relative;
+        margin-left: 25px;
+        text-align: center;
+        justify-content: center;
+    }
+    .add-header h2{
+        position: relative;
+        margin-left: 45px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .sec1 .container{
+        margin: 0;
+    }
+
+    .account {
+        position: relative;
+        left: 20%;
+    }
+
+    .form {
+        margin-top: 10%;
+    }
+
+    .form form input{
+        position: relative;
+        right: 58%;
+        margin-top: 5%;
+        width: 190%;
+        padding: 5px;
+        border-radius: 10px;
+        border-style: none;
+
+    }
+
+    ::placeholder{
+        font-family: "poppins", sans-serif;
+        font-size: 15px;
+        position: relative;
+    }
+
+    .form form p a{
+        text-decoration: none;
+        position: relative;
+        left: 10%;
+        color: #0866ff;
+    }
+
+    .form form .email,
+    .password {
+        padding: 8px 70px 8px 110px;
+
+    }
+
+    .form form p a {
+        position: relative;
+        left: 28%;
+    }
+    .create a{
+        position: relative;
+        left: 22%;
+    }
+        
+}
+
